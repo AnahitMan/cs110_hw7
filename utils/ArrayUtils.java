@@ -8,9 +8,9 @@ public class ArrayUtils {
 		}
 	}
 	public static String stringifyArray(int[] arr){
-		String result = "";
+		String result = "" + arr[0];
 		for(int i = 0; i < arr.length; i++) {
-			result = result + arr[i];
+			result = result + "," + arr[i];
 		}
 		return result;
 	}
